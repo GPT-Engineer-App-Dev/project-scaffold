@@ -1,38 +1,31 @@
-# project-scaffold
+# Bare Bones App
 
-Create a bare-bones application that I can modify and build on.
+This is a minimal web application that serves as a starting point for further development.
 
-## Collaborate with GPT Engineer
+## Running the Application
 
-This is a [gptengineer.app](https://gptengineer.app)-synced repository 🌟🤖
+1. Clone this repository to your local machine.
+2. Navigate to the project directory.
+3. Open the `src/index.html` file in a web browser.
 
-Changes made via gptengineer.app will be committed to this repo.
+That's it! You should see the bare bones application running in your browser.
 
-If you clone this repo and push changes, you will have them reflected in the GPT Engineer UI.
+## Modifying the Application
 
-## Tech stack
+### HTML (src/index.html)
 
-This project is built with .
+- The main content of the page is within the `<div id="app">` element.
+- You can add more HTML elements inside this div or create new sections as needed.
 
-- Vite
-- React
-- shadcn-ui
-- Tailwind CSS
+### CSS (src/styles.css)
 
-## Setup
+- The `styles.css` file contains basic styling for the application.
+- Modify existing styles or add new ones to change the appearance of your app.
 
-```sh
-git clone https://github.com/GPT-Engineer-App-Dev/project-scaffold.git
-cd project-scaffold
-npm i
-```
+### JavaScript (src/main.js)
 
-```sh
-npm run dev
-```
+- The `main.js` file contains the JavaScript code for the application.
+- It currently logs a message to the console and adds a paragraph to the page.
+- You can add more functionality by writing additional JavaScript code in this file.
 
-This will run a dev server with auto reloading and an instant preview.
-
-## Requirements
-
-- Node.js & npm - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Feel free to expand upon this basic structure to create your desired web application!
